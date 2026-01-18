@@ -116,6 +116,14 @@ export default function Settings() {
                 </p>
             </section>
 
+            <button
+                onClick={() => navigate('/help')}
+                className="btn"
+                style={{ width: '100%', background: 'var(--color-surface)', border: '1px solid var(--color-border)', color: 'var(--color-primary)' }}
+            >
+                View Help & Tutorials (Tulong)
+            </button>
+
         </div>
     );
 }

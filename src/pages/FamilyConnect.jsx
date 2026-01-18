@@ -67,7 +67,11 @@ export default function FamilyConnect() {
                             <button className="btn" style={{ background: '#ECFDF5', color: '#10B981', padding: '0.75rem' }}>
                                 <MessageCircle size={24} />
                             </button>
-                            <button className="btn" style={{ background: '#FFF7ED', color: '#F97316', padding: '0.75rem' }}>
+                            <button
+                                className="btn"
+                                style={{ background: '#FFF7ED', color: '#F97316', padding: '0.75rem' }}
+                                onClick={() => idx === 1 && navigate('/teleconsult')}
+                            >
                                 <Video size={24} />
                             </button>
                         </div>

@@ -9,6 +9,8 @@ import ServiceDetail from './pages/ServiceDetail';
 import HealthCheck from './pages/HealthCheck';
 import FamilyConnect from './pages/FamilyConnect';
 import MedicineReminder from './pages/MedicineReminder';
+import Teleconsultation from './pages/Teleconsultation';
+import HelpTutorial from './pages/HelpTutorial';
 import './App.css';
 
 import { ThemeProvider } from './context/ThemeContext';
@@ -31,8 +33,10 @@ function App() {
             <Route path="/services/:id" element={<ServiceDetail />} />
             <Route path="/health" element={<HealthCheck />} />
             <Route path="/medicines" element={<MedicineReminder />} />
+            <Route path="/teleconsult" element={<Teleconsultation />} />
             <Route path="/family" element={<FamilyConnect />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/help" element={<HelpTutorial />} />
           </Routes>
         </div>
       </BrowserRouter>

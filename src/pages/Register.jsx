@@ -44,9 +44,17 @@ export default function Register() {
                 <button
                     className="btn btn-primary text-xl"
                     onClick={() => navigate('/dashboard')}
-                    style={{ width: '100%' }}
+                    style={{ width: '100%', marginBottom: '1rem' }}
                 >
                     Simulate Registration
+                </button>
+
+                <button
+                    onClick={() => navigate('/login')}
+                    className="btn"
+                    style={{ background: 'transparent', color: 'var(--color-text-muted)' }}
+                >
+                    May account na? <span style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>Mag-login</span>
                 </button>
             </div>
         </div>

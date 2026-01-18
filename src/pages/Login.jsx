@@ -115,6 +115,15 @@ export default function Login() {
 
                 <button
                     type="button"
+                    onClick={() => navigate('/register')}
+                    className="btn"
+                    style={{ background: 'transparent', color: 'var(--color-text-main)', marginTop: '0.5rem' }}
+                >
+                    Wala pang account? <span style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>Mag-rehistro</span>
+                </button>
+
+                <button
+                    type="button"
                     className="btn"
                     style={{ background: 'transparent', color: 'var(--color-primary)', textDecoration: 'underline' }}
                 >
